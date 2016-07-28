@@ -15,7 +15,7 @@
 	  </repository>
 		   <snapshotRepository>
       <id>nexus</id>
-      <name>Nexus Snapshot</name>
+      <name>Nexus Snapshots</name>
       <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
 	      </snapshotRepository>
 		   <site>
@@ -49,6 +49,7 @@
         <skip>true</skip>
     </configuration>
 </plugin>
+<!--
 <plugin>
     <groupId>org.sonatype.plugins</groupId>
     <artifactId>nexus-staging-maven-plugin</artifactId>
@@ -67,7 +68,7 @@
         <serverId>nexus</serverId>
         <nexusUrl>http://localhost:8081/</nexusUrl>
     </configuration>
-</plugin>
+</plugin>-->
 </plugins>
 </build>
 </project>
