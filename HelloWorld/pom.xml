@@ -4,7 +4,7 @@
   <groupId>demo.java</groupId>
   <artifactId>HelloWorld</artifactId>
   <packaging>war</packaging>
-  <version>1.0</version>
+  <version>1</version>
   <name>HelloWorld</name>
   <url>http://maven.apache.org</url>
   <distributionManagement>
