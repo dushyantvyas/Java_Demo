@@ -54,7 +54,7 @@
     <artifactId>nexus-staging-maven-plugin</artifactId>
     <version>1.6.7</version>
     <extensions>true</extensions>
-      <!-- <executions>
+      <executions>
      <execution>
             <id>default-deploy</id>
             <phase>deploy</phase>
@@ -62,7 +62,7 @@
                 <goal>deploy</goal>
             </goals>
         </execution>
-    </executions> -->
+    </executions> 
     <configuration>
         <serverId>nexus</serverId>
         <nexusUrl>http://localhost:8081/nexus/</nexusUrl>
