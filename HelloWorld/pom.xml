@@ -39,7 +39,7 @@
 	</dependency>
  </dependencies>
   <build>
-  <finalName>Java_Demo</finalName>
+  <!-- <finalName>Java_Demo</finalName> -->
   <plugins>
   <plugin>
     <groupId>org.apache.maven.plugins</groupId>
